@@ -52,7 +52,8 @@ Ensure your data is preprocessed as follows:
 - **Tokenization and Lemmatization**: Converting text to lowercase and breaking it into tokens (words), followed by lemmatization to reduce words to their base forms.  
 
 ## Model Architecture  
-The sarcasm detection model is built using an LSTM-based neural network architecture, leveraging word embeddings to capture semantic meaning. The architecture includes:\n- **Embedding Layer**: Converts words into dense vectors of fixed size.  
+The sarcasm detection model is built using an LSTM-based neural network architecture, leveraging word embeddings to capture semantic meaning. The architecture includes: 
+- **Embedding Layer**: Converts words into dense vectors of fixed size.  
 - **LSTM Layers**: Captures the temporal dependencies in text data.  
 - **Dense Layers**: Final layers to produce the output classification.  
 
